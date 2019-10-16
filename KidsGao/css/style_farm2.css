@@ -1,0 +1,30 @@
+#farm2 {
+    width: 100%;
+    height: 850px;
+    background-image: url(../img/farm/farm2/farm2_bg.png);
+}
+
+#farm2 .leftRice2 {
+    position: absolute;
+    width: 250px;
+    height: 850px;
+    background-image: url(../img/farm/farm2/leftrice2.png);
+    float: left;
+    left: 0;
+}
+
+#farm2 .scarecrow {
+    position: absolute;
+    width: 103px;
+    height: 206px;
+    background-image: url(../img/farm/farm2/scarecrow.png);
+    margin: 200px 0 0 300px;
+}
+
+#farm2 .rightRice2 {
+    position: absolute;
+    width: 236px;
+    height: 850px;
+    background-image: url(../img/farm/farm2/rightrice2.png);
+    right: 0;
+}

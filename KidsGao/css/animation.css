@@ -1,0 +1,253 @@
+/* intro animation */
+
+#intro .introWrap .lion {
+    /* -webkit- : 크롬, 사파리 브라우저를 고려합니다. */
+    -webkit-animation: spinLion 1500ms linear infinite alternate; 
+    
+    /* -moz- : 파이어폭스 브라우저를 고려합니다. */
+    -moz-animation: spinLion 1500ms linear infinite alternate; 
+
+    animation: spinLion 1500ms linear infinite alternate;
+}
+
+/* -webkit- : 크롬, 사파리 브라우저를 고려합니다. */
+@-webkit-keyframes spinLion { 
+    from { -webkit-transform: rotate(-10deg); }
+    to { -webkit-transform: rotate(10deg); }
+}
+
+/* -moz- : 파이어폭스 브라우저를 고려합니다. */
+@-moz-keyframes spinLion { 
+    from { -moz-transform: rotate(-10deg); }
+    to { -moz-transform: rotate(10deg); }
+}
+
+@keyframes spinLion {
+    from { transform: rotate(-10deg); }
+    to { transform: rotate(10deg); }
+}
+
+#intro .introWrap .rabbit {
+    -webkit-animation: spinRabbit 1000ms linear infinite alternate;
+    -moz-animation: spinRabbit 1000ms linear infinite alternate;
+    animation: spinRabbit 1000ms linear infinite alternate;
+}
+
+@-webkit-keyframes spinRabbit {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(5deg); }
+}
+
+@-moz-keyframes spinRabbit {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(5deg); }
+}
+
+@keyframes spinRabbit {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(5deg); }
+}
+
+#intro .introWrap .bear {
+    -webkit-animation: spinBear 1000ms linear infinite alternate;
+    -moz-animation: spinBear 1000ms linear infinite alternate;
+    animation: spinBear 1000ms linear infinite alternate;
+}
+
+@-webkit-keyframes spinBear {
+    from { -webkit-transform: rotate(10deg); }
+    to { -webkit-transform: rotate(-10deg); }
+}
+
+@-moz-keyframes spinBear {
+    from { -moz-transform: rotate(10deg); }
+    to { -moz-transform: rotate(-10deg); }
+}
+
+@keyframes spinBear {
+    from { transform: rotate(10deg); }
+    to { transform: rotate(-10deg); }
+}
+
+#intro .introWrap .monkey {
+    -webkit-animation: spinMonkey 800ms linear infinite alternate;
+    -moz-animation: spinMonkey 800ms linear infinite alternate;
+    animation: spinMonkey 800ms linear infinite alternate;
+}
+
+@-webkit-keyframes spinMonkey {
+    from { -webkit-transform: rotate(20deg); }
+    to { -webkit-transform: rotate(50deg); }
+}
+
+@-moz-keyframes spinMonkey {
+    from { -moz-transform: rotate(20deg); }
+    to { -moz-transform: rotate(50deg); }
+}
+
+@keyframes spinMonkey {
+    from { transform: rotate(20deg); }
+    to { transform: rotate(50deg); }
+}
+
+#intro .cloudWrap .dragonfly {
+    animation: flyDragonfly linear 7s infinite normal;
+}
+
+@keyframes flyDragonfly {
+    from { left: -366px; }
+    to { left: 110%; }
+}
+
+/* farm3 animation */
+
+#farm3 .machineWrap .timer {
+    animation: rotateTimer 10000ms linear infinite;
+}
+
+@keyframes rotateTimer {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+#farm3 .machineWrap .saw1 {
+    animation: rotateLeftSaw 10000ms linear infinite;
+}
+
+@keyframes rotateLeftSaw {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+#farm3 .machineWrap .saw2 {
+    animation: rotateRightSaw 10000ms linear infinite;
+}
+
+@keyframes rotateRightSaw {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+}
+
+/* forest1 animation */
+#forest1 .treeWrap .rabbit1 {
+    animation: spinRabbitOne 1000ms linear infinite alternate;
+}
+
+@keyframes spinRabbitOne {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(10deg); }
+}
+
+#forest1 .treeWrap .rabbit2 {
+    animation: spinRabbitTwo 1000ms linear infinite alternate;
+}
+
+@keyframes spinRabbitTwo {
+    from { transform: rotate(10deg); }
+    to { transform: rotate(0deg); }
+}
+
+/* forest2 animation */
+#forest2 .machineWrap2 .machineLeft {
+    animation: moveLeft 1s linear infinite alternate;
+}
+
+@keyframes moveLeft {
+    from { left: 30px; }
+    to { left: 0; }
+}
+
+#forest2 .machineWrap2 .machineRight {
+    animation: moveRight 1s linear infinite alternate;
+}
+
+@keyframes moveRight {
+    from { left: -30px; }
+    to { left: 0; }
+}
+
+/* forest3 animation */
+#forest3 .forest3Wrap .smallBird{
+    animation: spinSmallbird 1000ms linear infinite alternate;
+}
+
+@keyframes spinSmallbird {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(10deg); }
+}
+
+#forest3 .forest3Wrap .bigBird{
+    animation: spinBigbird 1000ms linear infinite alternate;
+}
+
+@keyframes spinBigbird {
+    from { transform: rotate(-10deg); }
+    to { transform: rotate(10deg); }
+}
+
+/* science animation */
+#science .scienceWrap .scienceLeftWrap .gly {
+    animation: spinGly 1500ms linear infinite alternate;
+}
+
+@keyframes spinGly {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(50deg); }
+}
+
+#science .scienceWrap .scienceRightWrap .water {
+    animation: spinWater 1500ms linear infinite alternate;
+}
+
+@keyframes spinWater {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-50deg); }
+}
+
+/* night1 animation */
+#night1 .starWrap .star1,
+#night1 .starWrap .star2,
+#night1 .starWrap .star3 {
+    animation: pulseStar 1s linear infinite alternate;
+}
+
+@keyframes pulseStar {
+    from { transform: scale(1); }
+    to { transform: scale(0.8); }
+}
+
+/* night2 animation */
+#night2 .moon {
+    animation: moveMoon linear 10s infinite;
+}
+
+@keyframes moveMoon {
+    from { margin-left: -135px; }
+    to { margin-left: 110%; }
+}
+
+#morning .sun {
+    animation: moveSun linear 10s 1500ms infinite;
+}
+
+@keyframes moveSun {
+    from { margin-left: -131px; }
+    to { margin-left: 110%; }
+}
+
+/* kitchen animation */
+#kitchen .steamWrap .bubble1 {
+    animation-name: bubble1;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 0 0;
+}
+
+@keyframes bubble1 {
+    0% { transform: translate(0px, 0px) }
+    50% { transform: translate(-87.5px, -150px) }
+    100% { transform: translate(-100px, -300px) }
+}

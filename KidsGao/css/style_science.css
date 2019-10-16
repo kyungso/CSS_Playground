@@ -1,0 +1,82 @@
+#science {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/science/science_bg.png);
+}
+
+#science .scienceWrap {
+    position: relative;
+    width: 1066px;
+    height: 611px;
+    left: 50%;
+    margin-left: -533px;
+}
+
+#science .scienceWrap .scienceLeftWrap {
+    float: left;
+}
+
+#science .scienceWrap .scienceLeftWrap .gly {
+    width: 230px;
+    height: 192px;
+    background-image: url(../img/science/gly.png);
+    margin-bottom: 130px;
+    margin-left: 55px;
+}
+
+#science .scienceWrap .scienceLeftWrap p {
+    color: #8E7577;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+#science .scienceWrap .scienceCenterWrap {
+    float: left;
+}
+
+#science .scienceWrap .scienceCenterWrap .purpleSteam {
+    position: relative;
+    width: 241px;
+    height: 216px;
+    background-image: url(../img/science/grape.png);
+    left: 50%;
+    margin-left: -120px;
+    z-index: 100;
+}
+
+#science .scienceWrap .scienceCenterWrap .funnelBack {
+    position: absolute;
+    width: 488px;
+    height: 438px;
+    background-image: url(../img/science/hopperback.png);
+    margin-top: -45px;
+}
+
+#science .scienceWrap .scienceCenterWrap .funnelFront {
+    position: relative;
+    width: 485px;
+    height: 390px;
+    background-image: url(../img/science/hopperfront.png);
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+#science .scienceWrap .scienceRightWrap {
+    float: right;
+}
+
+#science .scienceWrap .scienceRightWrap .water {
+    width: 204px;
+    height: 191px;
+    background-image: url(../img/science/water.png);
+    margin-bottom: 130px;
+}
+
+#science .scienceWrap .scienceRightWrap p {
+    color: #8E7577;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+}

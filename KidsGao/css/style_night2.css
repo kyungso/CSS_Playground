@@ -1,0 +1,26 @@
+#night2 {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/oneday/night2/night2_bg.png);
+}
+
+#night2 .moon {
+    width: 135px;
+    height: 135px;
+    background-image: url(../img/oneday/night2/moon.png);
+}
+
+#night2 .night2Bubble {
+    position: absolute;
+    margin: 300px 0 0 80px;
+}
+
+#night2 .rightMoonTree {
+    position: absolute;
+    width: 243px;
+    height: 588px;
+    background-image: url(../img/oneday/night2/moontree.png);
+    right: 0;
+    bottom: 0;
+}

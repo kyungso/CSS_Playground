@@ -1,0 +1,45 @@
+#forest1 {
+    width: 100%;
+    height: 1050px;
+    background-image: url(../img/forest/forest1/forest1_bg.png);
+}
+
+#forest1 .leftTree {
+    position: absolute;
+    width: 332px;
+    height: 990px;
+    background-image: url(../img/forest/forest1/lefttree.png);
+    float: left;
+    left: 0;
+}
+
+#forest1 .treeWrap {
+    position: relative;
+    width: 304px;
+    height: 572px;
+    float: right;
+    top: 100px;
+}
+
+#forest1 .treeWrap .rabbit1 {
+    position: absolute;
+    width: 82px;
+    height: 103px;
+    background-image: url(../img/forest/forest1/rabbit1.png);
+    margin: 435px 0 0 107px;
+}
+
+#forest1 .treeWrap .rabbit2 {
+    position: absolute;
+    width: 56px;
+    height: 75px;
+    background-image: url(../img/forest/forest1/rabbit2.png);
+    margin: 435px 0 0 200px;
+}
+
+#forest1 .treeWrap .rightTree {
+    position: absolute;
+    width: 304px;
+    height: 572px;
+    background-image: url(../img/forest/forest1/righttree.png);
+}

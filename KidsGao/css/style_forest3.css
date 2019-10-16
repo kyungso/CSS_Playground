@@ -1,0 +1,37 @@
+#forest3 {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/forest/forest3/forest3_bg.png);
+}
+
+#forest3 .forest3Wrap {
+    position: relative;
+    width: 354px;
+    height: 471px;
+    float: right;
+    top: 100px;
+}
+
+#forest3 .forest3Wrap .forest3Tree {
+    position: absolute;
+    width: 354px;
+    height: 471px;
+    background-image: url(../img/forest/forest3/forest3tree.png);
+    right: 0;
+}
+
+#forest3 .forest3Wrap .smallBird {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    background-image: url(../img/forest/forest3/bird_sm.png);
+    margin: 120px 0 0 125px;
+}
+
+#forest3 .forest3Wrap .bigBird {
+    position: absolute;
+    width: 83px;
+    height: 80px;
+    background-image: url(../img/forest/forest3/bird_big.png);
+    margin: 280px 0 0 94px;
+}
